@@ -1,0 +1,25 @@
+{
+ "id": "t60-razem-v1",
+ "name": "T60 RAZEM — wszystkie tabele Test60",
+ "short_name": "T60 RAZEM",
+ "start_url": "./?app=t60razem",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#12151c",
+ "theme_color": "#1b1f2a",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  }
+ ]
+}
