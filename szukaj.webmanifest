@@ -1,8 +1,8 @@
 {
  "id": "t60-szukaj-v1",
- "name": "T60 SZUKAJ — modele STEP→TRIGGER",
+ "name": "T60 SZUKAJ (nowy adres: /szukaj60/)",
  "short_name": "T60 SZUKAJ",
- "start_url": "./szukaj.html",
+ "start_url": "/szukaj60/",
  "scope": "./szukaj",
  "display": "standalone",
  "orientation": "portrait",
