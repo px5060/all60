@@ -95,7 +95,7 @@ input[type=file]{display:none}
 
 <script>
 "use strict";
-const APP_VER = '2.6.0';
+const APP_VER = '2.6.1';
 const LS = { added: 't60razem_v1_added', autobk: 't60razem_v1_autobk', lastbk: 't60razem_v1_lastbk', lastimp: 't60razem_v1_lastimp' };
 // ---- MOJE GRY: modele dodane przyciskiem w oknie statystyk (karta GRA / wiersz TABELI); start = liczba kodów w chwili dodania ----
 const MOJE = { key: 't60razem_v1_moje',
@@ -685,5 +685,6 @@ window.addEventListener('resize', layout);
 layout();
 buildFrames();
 </script>
+<script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('t60razem-sw.js', { scope: './' }).catch(() => {});</script>
 </body>
 </html>
