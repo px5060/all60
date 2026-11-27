@@ -2,7 +2,8 @@
 
 Dwa rodzaje pracy w tym repo:
 
-- **Appka T60 RAZEM** (kod, PR) — `index.html` (appki jako JSON w `APPS = […]`); zasady rodziny appek w repo `szukaj60` (`RULES.md`).
+- **Appka T60 RAZEM** (kod, PR) — `index.html` (appki jako JSON w `APPS = […]`); **zasady tej appki: `RULES.md`** (tabele, kroki, stawki,
+  stany, z czego korzysta MOJE, jak edytować `APPS`); zasady rodziny appek w repo `szukaj60` / `moje` (`RULES.md`).
 - **Analiza modeli do gry** (MOJE / SZUKAJ / RAZEM / ZESZYT, wybór modeli, Nr i stawki, sesja jednego modelu, propozycje) — projekt
   jest **jeden, w repo `all50`** (folder `analiza/`). Na start:
   1. `[ -d ../all50 ] || git clone -q --depth 1 https://github.com/px5060/all50 ../all50` (repo publiczne, odczyt wystarczy),
